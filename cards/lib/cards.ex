@@ -34,7 +34,6 @@ defmodule Cards do
       true
 
   """
-  @spec contains?(any, any) :: boolean
   def contains?(deck, card) do
     Enum.member?(deck, card)
   end
